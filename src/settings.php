@@ -11,8 +11,8 @@ return [
 
         // Monolog settings
         'logger' => [
-            'name' => 'slim-app',
-            'path' => __DIR__ . '/../logs/app.log',
+            'name' => 'football_api',
+            'path' => __DIR__ . '/../logs/football_api.log',
             'level' => \Monolog\Logger::DEBUG,
         ],
     ],
